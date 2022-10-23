@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>注册</title>
+	<link rel="icon" href=".\logo.png" sizes="16*16"></link>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<style>
+		a:link {color:#0f0;text-decoration: none;}
+		a:visited {text-decoration: line-through;}
+		a:hover {color:#ffcc00;text-decoration:underline;}
+		a{
+			
+        	font-family: STxingkai;
+			color: #0f0;
+			font-size: 50px;
+			text-shadow: 4px 4px 10px #f00;
+			
+		}
+		body{
+			font-size:75%;
+			font-family: STxingkai;
+			background-color:#DCDCDC;
+			color:#8A2BE2;
+			margin:10px;
+			background-image: url('back.png');
+    		background-attachment: fixed;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<a href="https://www.zju.edu.cn/" target="_top">注册</a>
+		<br><hr><br>
+		<form action="FBI.jpg" method="post">
+			<table>
+				<tr>
+					<th rowspan="6">基本信息</th>
+					<td>用户姓名：</td>
+					<td colspan="2"><input required="required" type="text" style="width: 95%;"></td>
+				</tr>
+				<tr>
+					<td>上传头像：</td>
+					<td><input required="required" type="file" style="width:100%;"></td>
+				</tr>
+				<tr>
+					<td>真实姓名：</td>
+					<td colspan="2"><input required="required" type="text" style="width: 95%;"></td>
+				</tr>
+				<tr>
+					<td>密码:</td>
+					<td colspan="2"><input required="required" type="password"style="width: 95%;"></td>
+				</tr>
+				<tr>
+					<td>确认密码:</td>
+					<td colspan="2"><input required="required" type="password"style="width: 95%;"></td>
+				</tr>
+				<tr>
+					<td>性别:</td>
+					<td colspan="2"><input required="required" type="radio" name="sex" value="male">男&nbsp;<input required="required" type="radio" name="sex" value="female">女</td>
+				</tr>
+				<tr>
+					<th colspan="4">通信信息</th>
+				</tr>
+				<tr>
+					<td>手机号码：</td>
+					<td><input required="required" type="tel" style="width: 93%;"></td>
+					<td>电子邮箱：</td>
+					<td><input required="required" type="text" style="width: 93%;"></td>
+				</tr>
+				<tr>
+					<td>居住地址：</td>
+					<td colspan="3"><input required="required" type="text" style="width: 97%;" style="width: 500px;"></td>
+				</tr>
+				<tr>
+					<th colspan="4">额外信息</th>
+				</tr>
+				<tr>
+					<td>爱好</td>
+					<td colspan="3">
+						<input type="checkbox" name="hobby" value="basket">篮球&nbsp;
+						<input type="checkbox" name="hobby" value="foot">足球&nbsp;
+						<input type="checkbox" name="hobby" value="ping">乒乓球
+					</td>
+				</tr>
+				<tr>
+					<td>个人说明</td>
+					<td colspan="3"><textarea rows="5" cols="90%"></textarea></td>
+				</tr>
+				<tr>
+					<th colspan="4">
+						<input type="reset" value="重置">&nbsp;
+						<input type="submit" value="立即注册">
+					</th>
+				</tr>
+			</table>
+		</form>
+	</center>
+</body>
+</html>

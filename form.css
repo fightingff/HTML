@@ -1,0 +1,40 @@
+th,td{
+    border:6px solid white;
+}
+table{
+    border: 15px inset #ff0;
+    background-color: rgb(154, 245, 245);
+    border-spacing:8px;
+    border-radius: 45px 0px;
+}
+th{
+    font-family:LiSu;
+    font-size:30px;
+    text-shadow: 2px 2px 8px rgb(254, 254, 5);
+    background-color: lightgreen;
+    border-collapse:collapse;
+}
+td{
+    font-family:kaiti;
+    font-size: 18px;
+    padding: 5px;
+    border-collapse:collapse;
+}
+input[type=text],[type=tel],[type=password]{
+    padding:5px;
+}
+input[type=text]:focus,[type=tel]:focus,[type=password]:focus{
+    background-color: lightyellow;
+    border: 5px solid #ffcc00;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(68, 68, 243);
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 8px 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Lisu;
+  }
